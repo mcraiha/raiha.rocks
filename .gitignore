@@ -332,3 +332,14 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
+
+# Wyam Output folder
+output
+
+# Wyam wwwroot
+wwwroot
+
+# Wyam single files
+config.wyam.dll
+config.wyam.hash
+config.wyam.packages.xml

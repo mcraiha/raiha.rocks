@@ -1,0 +1,11 @@
+#recipe Blog
+
+// Customize your settings and add new ones here
+Settings[Keys.Host] = "mc.raiha.rocks";
+Settings[BlogKeys.Title] = "Mc Raiha rocks!";
+Settings[BlogKeys.Description] = "Pilviä, pelejä ja kiviä";
+
+Settings[Keys.LinkHideExtensions] = false;
+Settings[Keys.LinkHideIndexPages] = false;
+
+// Add any pipeline customizations here
