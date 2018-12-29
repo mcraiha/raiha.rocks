@@ -10,8 +10,8 @@ Nykyisen domain+webhosting -paketin suurin puute on [HTTPS](https://fi.wikipedia
 
 Koska tämä blogi ei tuota minulle tuloja, koetan pitää siihen liityvät kulut mahdollisimman lähellä nollaa. Tämän takia tarjolla olevat pilvipalveluiden vaihtoehdot ovat jokseenkin rajoitetut, mutta alla on listattu toimintasuunnitelma, jonka mukaan etenen.
 
-1. Mahdollisimman halpa domain, joka heitetään [CloudFlaren](https://www.cloudflare.com/) taakse - 📝 [Osa yksi](/posts/Osa_yksi_cloudflare.html)
-2. Sivujen hosting [Amazon S3](https://aws.amazon.com/s3/):n kautta
+1. Mahdollisimman halpa domain, joka heitetään [CloudFlaren](https://www.cloudflare.com/) taakse - 📝 **[Osa yksi](/posts/Osa_yksi_cloudflare.html)**
+2. Sivujen hosting [Amazon S3](https://aws.amazon.com/s3/):n kautta - 📝 **[Osa kaksi](/posts/Osa_kaksi_s3.html)**
 3. Sähköposti [Yandex.Mail for Domain](https://domain.yandex.com) -palvelun kautta
 
 CloudFlaren ohella CDN-vaihtoehtona olisivat olleet Amazonin [CloudFront](https://aws.amazon.com/cloudfront/), joka olisi sopinut hyvin yhteen S3:n kanssa ja [Azure CDN](https://azure.microsoft.com/en-us/services/cdn/). Molemmat karsiutuivat pois hinnan puolesta.
