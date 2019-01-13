@@ -1,5 +1,5 @@
 # raiha.rocks
 
-Content of the mc.raiha.rocks blog
+Content of the [mc.raiha.rocks](https://mc.raiha.rocks) blog
 
-Sisältö mc.raiha.rocks -blogiin
+Sisältö [mc.raiha.rocks](https://mc.raiha.rocks) -blogiin
