@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lahjapussin generointia</title>
+</head>
+
+<body>
+    <button onclick="generoi()">Generoi</button>
+
+    <p id="demo"></p>
+    
+    <script>
+    function shuffleArray(a) 
+    {
+        for (let i = a.length - 1; i > 0; i--) 
+        {
+            const j = Math.floor(Math.random() * (i + 1));
+            [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+    }
+
+    function luoPussi()
+    {
+        let pussi = [1, 2, 3, 4, 5, 6];
+        return shuffleArray(pussi);
+    }
+
+    function generoi() {
+        const howManyRolls = 1000;
+        let lastRoll = -1;
+        let totalRolls = [0, 0, 0, 0, 0, 0];
+        let streaks = [0, 0, 0, 0, 0, 0];
+        let totalSum = 0;
+        let currentStreakLength = 0;
+        let lahjapussi = luoPussi();
+        for (let i = 0; i < howManyRolls; i++)
+        {
+            if (lahjapussi.length < 1)
+            {
+                lahjapussi = luoPussi();
+            }
+
+            const roll = lahjapussi.pop();
+            const index = roll - 1;
+            totalRolls[index] += 1;
+            if (lastRoll === roll)
+            {
+                currentStreakLength++;
+                if (currentStreakLength > streaks[index])
+                {
+                    streaks[index] = currentStreakLength;
+                }
+            }
+            else
+            {
+                currentStreakLength = 0;
+            }
+            lastRoll = roll;
+            totalSum += roll;
+        }
+      const innerText = `Tulokset: 
+                        <br>
+                        Poimintoja pussista: ${howManyRolls}
+                        <br> 
+                        1:siä yhteensä ${totalRolls[0]}, pisin putki peräkkäin ${streaks[0]}
+                        <br> 
+                        2:sia yhteensä ${totalRolls[1]}, pisin putki peräkkäin ${streaks[1]} 
+                        <br> 
+                        3:sia yhteensä ${totalRolls[2]}, pisin putki peräkkäin ${streaks[2]}
+                        <br>
+                        4:sia yhteensä ${totalRolls[3]}, pisin putki peräkkäin ${streaks[3]}
+                        <br>
+                        5:sia yhteensä ${totalRolls[4]}, pisin putki peräkkäin ${streaks[4]}
+                        <br>
+                        6:sia yhteensä ${totalRolls[5]}, pisin putki peräkkäin ${streaks[5]}
+                        <br>
+                        summa: ${totalSum} keskiarvo: ${totalSum / howManyRolls}
+                        `;
+      document.getElementById("demo").innerHTML = innerText;
+    }
+    </script>
+</body>
+</html>
