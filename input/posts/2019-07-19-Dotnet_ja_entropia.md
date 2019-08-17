@@ -6,7 +6,7 @@ Tags:
 ---
 ## Yleistä höpinää
 
-Parin viikon sisällä internetissä on ollut jonkin verran keskustelua **Ryzen 2** -suorittimien [rdrand](https://en.wikipedia.org/wiki/RdRand)-käskyn [ongelmista](https://www.extremetech.com/gaming/295020-destiny-2-doesnt-currently-run-on-ryzen-3000-cpus-but-a-fix-is-coming), joiden vuoksi esim. **Destiny 2** -peli ei toistaiseksi toimi kyseisillä suorittimilla. 
+Parin viikon sisällä internetissä on ollut jonkin verran keskustelua **Ryzen 3000** -sarjan suorittimien [rdrand](https://en.wikipedia.org/wiki/RdRand)-käskyn [ongelmista](https://www.extremetech.com/gaming/295020-destiny-2-doesnt-currently-run-on-ryzen-3000-cpus-but-a-fix-is-coming), joiden vuoksi esim. **Destiny 2** -peli ei toistaiseksi toimi kyseisillä suorittimilla. 
 
 Satunnaislukujen generoinnissa tarvittavan [entropian](https://en.wikipedia.org/wiki/Entropy_(computing)) tavalliset ohjelmat voivat ottaa käyttöjärjestelmältä, joten Destiny 2:n kohdalla ongelma olisi helposti kierrettävissä, jos peli hankkisi satunnaisluvut käyttöjärjestelmältä, eikä suoraan suorittimelta.
 
