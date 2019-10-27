@@ -1,10 +1,10 @@
-Title: Windowsin version ja lisenssin tarkitus
+Title: Windowsin version ja lisenssin tarkistus
 Tags: 
   - Windows 10
   - Lisenssi
 ---
 ## Yleistä höpinää
-Joskus käsiin saattaa päätyä **Windows 10** -käyttöjärjestelmällä varustettu tietokone, jonka historiasta ei ole koneen uudella omistajalla kovin tarkkoja tietoja. Onneksi tiettyjen tietojen kaivaminen esiin onnistuu muutamalla komennolla
+Joskus käsiin saattaa päätyä **Windows 10** -käyttöjärjestelmällä varustettu tietokone, jonka historiasta ei ole koneen uudella omistajalla kovin tarkkoja tietoja. Onneksi tiettyjen tietojen kaivaminen esiin Windowsista onnistuu muutamalla komennolla
 
 ### Windowsin versio
 Helpoin tapa saada tietoa alla olevasta Windowsista on suorittaa `winver` -komento (vaikka **Win + r** -näppäinyhdistelmän kautta). Aukeava graafinen **About Windows** -ikkuna paljastaa mm. käyttöjärjestelmän, sen versio ja kenelle käyttöjärjestelmä on lisensoitu.
