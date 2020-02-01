@@ -1,6 +1,6 @@
 Title: Kaupunkipyöräkausi 2019
 Tags: 
-  - Kuapunkipyörä
+  - Kaupunkipyörä
   - Tilastot
 ---
 ## Elämän ensimmäinen kaupunkipyöräkausi
