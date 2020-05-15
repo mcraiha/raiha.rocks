@@ -1,4 +1,4 @@
-Title: Koivuallergia ja Itulazax
+Title: Koivuallergia ja Itulazax *PÄIVITETTY*
 Tags: 
   - Koivuallergia
   - Siitepöly
@@ -24,7 +24,7 @@ Itsellä ei ensimmäisellä kerralla tullut mitään mainittavia sivuoireita, jo
 
 ### Kustannukset
 
-Siedätyshoidon aloittaminen ei ole ilmaista. Koska Itulazax ei kuulu tällä hetkellä KELA:n lääkekorvauslistalle (tähän on lääkärin mukaan tulossa muutos), pitää lääkkeet maksaa kokonaan itse. Apteekissa 30 tabletin pakkaus (eli 30 päivän annos) maksaa 130,54 euroa.
+Siedätyshoidon aloittaminen ei ole ilmaista. <s>Koska Itulazax ei kuulu tällä hetkellä KELA:n lääkekorvauslistalle (tähän on lääkärin mukaan tulossa muutos), pitää lääkkeet maksaa kokonaan itse</s> (KELA-korvattavuus tuli voimaan helmikuussa 2020). Apteekissa 30 tabletin pakkaus (eli 30 päivän annos) maksaa <s>130,54</s> 116,38 euroa, ja erikseen haettavan [KELA-korvauksen](https://asiointi.kela.fi/laakekys_app/LaakekysApplication/Korvattavuus?korvaava=081344) myötä (40 %) maksettavaa jää 69,83 per pakkaus.
 
 Alla listattu kustannuksia (mahdollisten KELA-korvausten jälkeen)
 
@@ -33,8 +33,12 @@ Alla listattu kustannuksia (mahdollisten KELA-korvausten jälkeen)
 | 15 minuutin käynti erikoislääkärin luona yksityisellä puolella | ~ 110 euroa |
 | Spirometria | 136 euroa |
 | Allergiatesti verikokeella | 104 euroa |
-| Itulazax 30 tablettia | 130,54 euroa |
+| Itulazax 30 tablettia | <s>130,54</s> 116,38 euroa |
 | Lääkäripalkkio reseptistä| 35 euroa |
 | Valvottu lääkkeen otto ja ohjeistus | 66 euroa |
 
 Eli ensimmäisen lääkkeen ottamisen yhteydessä rahaa on kulunut noin 580 euroa.
+
+**PÄIVITYS**
+
+Helmikuussa 2020 Itulazax hinta (30 tablettia) tippui 116,38 euroon. Erikseen haettavan KELA-korvauksen myötä (40 %) maksettavaa jää 69,83 euroa kuukaudessa.
