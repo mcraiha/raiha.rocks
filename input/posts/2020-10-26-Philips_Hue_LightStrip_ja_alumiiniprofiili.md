@@ -36,4 +36,8 @@ Valonauhan toimivuus kannattaa testata ennen profiiliin asennusta ja myös asenn
 
 ![Valonauha päällä](../images/valonauha_loisto.jpg)
 
+Asennuspaikkaa valittaessa kannattaa huomata käytössä olevan virtalähteen johdon riittävyys. 
+
+![Valonauha asennettuna](../images/valonauha_asennettu.jpg)
+
 <span style="font-size:4em;">💡</span>
