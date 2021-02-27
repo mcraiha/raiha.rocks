@@ -13,7 +13,7 @@ GitHubin yksi _"salaisuus"_ on se, että forkin tehdessä alkuperäinen projekti
 ```
 git remote -v
 ```
-ja tuloste pitäisi olla esimerkiksi alla olevan näköinen
+ja tuloste pitäisi olla esimerkiksi alla olevan näköinen  
 ![Github_remote_fork_upstream](../images/github_remote_fork_upstream.png)
 
 ### Upstreamin päivitys
@@ -28,7 +28,7 @@ Kun olet varma ettei omassa master- ja/tai main-haarassa ole mitään säilyttä
 ```
 git reset --hard upstream/main
 ```
-**main**-kohtaan voi luonnollisesti vaihtaa sen haaran, johon tilanteen haluaa resetoida
+**main**-kohtaan voi luonnollisesti vaihtaa sen haaran, johon tilanteen haluaa resetoida  
 ![git_reset_hard_upstream_main](../images/git_reset_hard_upstream_main.png)
 
 ### Muutosten pushaaminen GitHubiin
