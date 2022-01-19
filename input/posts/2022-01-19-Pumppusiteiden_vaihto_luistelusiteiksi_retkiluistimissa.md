@@ -26,7 +26,7 @@ Pumppusiteet irtoavat Toronto-retkiluistimista muutamassa minuutissa, jos käyt�
 
 Asennuksen kannalta hankalin vaihe on sopivien ruuvien löytäminen. Koska siteet ovat melko matalat, ei luistimen yläpuolelle jää paljon ruuvia. Siteissä valmiiksi mukana olevat ruuvit eivät kelpaa asennukseen, koska nuo ruuvit ovat tarkoitettu siteiden asennukseen suksiin.
 
-**M4**-kierteeseen menevät ruuvit hain lopulta [Uudenmaan Pultti](https://www.uudenmaanpultti.fi/)-nimisestä firmasta, koska sekatavakauppojen ruuvihyllyistä ei sopivia löytynyt. Keskiosiin laitettavien ruuvien pituus oli 8 mm ja reunoille otin 10 mm pituudella varustetut. Lisäksi reunoille kannattaa laittaa aluslevyt ja mutterit kiristystä varten. Ja myös takaosan kiinnitys kannattaa suorittaa aluslevyjen avulla. Yhteensä siis tarvitsin kuusi kappaletta 8 mm ruuveja, neljä kappaletta 10 mm ruuveja, kahdeksan aluslevyä ja neljä mutteria.  
+**M4**-kierteeseen menevät ruuvit hain lopulta [Uudenmaan Pultti](https://www.uudenmaanpultti.fi/)-nimisestä firmasta, koska sekatavarakauppojen ruuvihyllyistä ei sopivia löytynyt. Keskiosiin laitettavien ruuvien pituus oli 8 mm ja reunoille otin 10 mm pituudella varustetut. Lisäksi reunoille kannattaa laittaa aluslevyt ja mutterit kiristystä varten. Ja myös takaosan kiinnitys kannattaa suorittaa aluslevyjen avulla. Yhteensä siis tarvitsin kuusi kappaletta 8 mm ruuveja, neljä kappaletta 10 mm ruuveja, kahdeksan aluslevyä ja neljä mutteria.  
 
 ![Prolinkin ruuvit](../images/prolink_side_ruuvit_retkiluistin.jpg)  
 
