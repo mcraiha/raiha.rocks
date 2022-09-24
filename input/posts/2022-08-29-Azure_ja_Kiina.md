@@ -32,6 +32,9 @@ ja jos haluat nähdä Azuren kaikki maakohtaiset valinnat, voit ajaa puolestaan 
 az cloud list
 ```
 
+### Palvelut saattavat vaatia ylimääräisiä komentoja toimiakseen
+Globaalin Azuren osalta esim. Functionsin ja Application Insightin yhdistelmä ei vaadi erillisen yhteysosoitteen määrittämistä, mutta Kiinan Azuren osalta tilanne on toinen. Pelkkä `APPINSIGHTS_INSTRUMENTATIONKEY` ei siis riitä, vaan Kiinan Azuressa on lisäksi [käytettävä](https://blog.brooksjc.com/2020/04/14/application-insights-integration-with-azure-government-or-other-clouds/) `APPLICATIONINSIGHTS_CONNECTION_STRING` oikean **EndpointSuffix**-asetuksen kanssa.
+
 ### CI / CD -yhdistämiset vaativat yleensä manuaalista tekemistä
 Monissa CI / CD -palveluissa on mahdollista käyttää globaalia Azurea yleensä hyvin helposti, koska palveluiden yhdistäminen keskenään onnistuu useimmissa tapauksissa hyvin vaivattomasti automaattisten yhdistämisvelhojen avulla. Kiinassa pyörivän Azuren osalta tilanne ei yleensä ole kuitenkaan yhtä toimiva, vaan useasti asetukset on säädettävä kuntoon [manuaalisesti](https://anduin.aiursoft.com/post/2020/3/5/publish-app-from-azure-devops-to-nonglobal-azure-environment-like-azure-cn), ja tiettyjen liitännäisten kohdalla Kiinan Azure ei toimi lainkaan.
 
