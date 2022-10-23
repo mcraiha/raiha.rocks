@@ -44,4 +44,8 @@ Windowsilla pelatessa voi testaustoiminnon aikajanalle laittaa pysäytyspisteen 
 
 Pelin peruspiireissä ei ole lainkaan jakolaskutoimintoa eikä jakojäännöksen laskemista. Tämän takia monet normaalista ohjelmoinnista tutut bittien nypläämiset eivät onnistu pelissä mitenkään helposti, joka kannattaa pitää mielessä, kun omia suunnitelmia tekee.
 
+### Johtoja voi vetää piirien alitse
+
+Vihreää johtoa voi vetää piirien alitse. **Show wires** -nappi (`Tab`-näppäin) auttaa tässä tilanteessa, koska sen avulla näkee piirien alle.
+
 <span style="font-size:4em;">🖥️</span>
