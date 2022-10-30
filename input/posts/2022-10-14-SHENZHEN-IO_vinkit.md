@@ -48,4 +48,8 @@ Pelin peruspiireissä ei ole lainkaan jakolaskutoimintoa eikä jakojäännöksen
 
 Vihreää johtoa voi vetää piirien alitse. **Show wires** -nappi (`Tab`-näppäin) auttaa tässä tilanteessa, koska sen avulla näkee piirien alle.
 
+### Paras tulos kaikissa kategorioissa saattaa vaatia eri toteuksia
+
+Pelissä on useampi tehtävä, jossa pienintä budjettia, koodimäärää ja virrankulutusta ei saavuteta samalla toteutuksella. Eli toteutuksia pitää olla useampi.
+
 <span style="font-size:4em;">🖥️</span>
