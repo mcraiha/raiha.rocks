@@ -16,6 +16,6 @@ En missään, tehtävä on helppo ja tehtävänanto on jälleen hyvin ymmärrett
 
 ### Mitä olisi voinut tehdä paremmin
 
-Oikean alareunan piirillä voi käskyjä vähentää DST-komennon avulla, jos DX300:n linjat valo-ohjauksiin reitittää toisella tavalla. Vasemman yläreunan piirissä käskyjen määrää voi vähentää TCP-vertailun avulla.
+Oikean alareunan piirillä voi käskyjä vähentää DST-komennon avulla, jos DX300:n linjat valo-ohjauksiin reitittää toisella tavalla. Vasemman yläreunan piirissä käskyjen määrää voi vähentää TCP-vertailun avulla. Kaikki neljä piiriä on myös mahdollista korvata kahdella suuremmalla piirillä, jos toisella piirillä haetaan sekä valojen kesto kyseisessä vaiheessa että DX300:lle menevä arvo (tällöin sekä oikean yläreunan että oikean alareunan piirit jäävät turhiksi).
 
 <span style="font-size:4em;">🖥️</span>
