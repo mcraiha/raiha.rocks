@@ -64,10 +64,37 @@ Sertifikaatin luominen aiemmin luodusta yksityisestä avaimesta onnistuu seuraav
 openssl req -new -x509 -key private-key.pem -out cert.pem -days 365
 ```
 
-tämän jälkeen pitää vastata useampaa kysymykseen mm. kaupungin osalta, ja lopulta käytettävissä pitäisi olla `cert.pem` -tiedosto. Myös tämän sertifikaatin voi avata haluamallaan tekstieditorilla tai tulostaa konsoliin seuraavalla komennolla
+tämän jälkeen pitää vastata useampaan kysymykseen mm. kaupungin ja organisaation osalta, ja lopulta käytettävissä pitäisi olla `cert.pem` -tiedosto. 
+
+Tarvittaessa nämä kysymysten täyttämät parametrit voi antaa myös komentorivin kautta, jolloin komento voisi olla seuraavanlainen
+
+```bash
+openssl req -new -x509 -key private-key.pem -out cert.pem -days 365 -subj "/C=FI/ST=Uusimaa/L=Helsinki/O=TurvallisuusFirma/OU=IT-osasto/CN=example.com"
+```
+
+Myös tämän sertifikaatin voi avata haluamallaan tekstieditorilla tai tulostaa konsoliin seuraavalla komennolla
 
 ```bash
 cat cert.pem
+```
+
+jolloin näkyviin tulee jotain seuraavanlaista
+
+```
+-----BEGIN CERTIFICATE-----
+MIICPDCCAeGgAwIBAgIUB+4D3hswdbu1i0fDwuRboF61NCkwCgYIKoZIzj0EAwIw
+czELMAkGA1UEBhMCRkkxEDAOBgNVBAgMB1V1c2ltYWExETAPBgNVBAcMCEhlbHNp
+bmtpMRUwEwYDVQQKDAxUdXJ2YWxsaXN1dXMxEjAQBgNVBAsMCUlULW9zYXN0bzEU
+MBIGA1UEAwwLZXhhbXBsZS5jb20wHhcNMjMwMjI1MDY1MjE4WhcNMjQwMjI1MDY1
+MjE4WjBzMQswCQYDVQQGEwJGSTEQMA4GA1UECAwHVXVzaW1hYTERMA8GA1UEBwwI
+SGVsc2lua2kxFTATBgNVBAoMDFR1cnZhbGxpc3V1czESMBAGA1UECwwJSVQtb3Nh
+c3RvMRQwEgYDVQQDDAtleGFtcGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEH
+A0IABEpUtW5o14J9XLjlcFVYKvP2lnKAF6eS+b6McST4sWFBiBSv8Px5NfOZA7Tz
+4HPlxS0zt+vY0duhvP21d+UjCoijUzBRMB0GA1UdDgQWBBR2+R495HzWdfvrkIWg
+GuI2T62tSTAfBgNVHSMEGDAWgBR2+R495HzWdfvrkIWgGuI2T62tSTAPBgNVHRMB
+Af8EBTADAQH/MAoGCCqGSM49BAMCA0kAMEYCIQCO+DsmbrxuTU/QmyDSxblG5ZL8
+HlgLshT7eVvyuPOq1gIhAK1TL65ny7+kj5trSJo07ZZAiDm7cj8APMcfd6n+CVO9
+-----END CERTIFICATE-----
 ```
 
 <span style="font-size:4em;">🔏</span>
