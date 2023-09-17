@@ -9,7 +9,7 @@ Tags:
 
 Monet tarjolla olevat DevOps-ratkaisut tarjoavat käyttäjilleen yleensä ilmaisia CI/CD-pipelinejä, joissa käyttöä on rajattu useimmiten käytössä olevien buildiminuuttien mukaan. Azure Devopsissa [ilmaisia minuutteja](https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/) saa kuukaudessa 1800 (eli 30 tuntia), jonka jälkeen on joko maksettava tai lisättävä mukaan oma agentti tekemään buildeja.
 
-Omia buldiminuutteja voi kuitenkin säästää huomattavasti, jos käytettävän minuuttimäärän kohdentaa hyvin. Kohdentamisella tarkoitetaan tässä tapauksessa sitä, ettei kaikki pipelinejä ajeta jokaisen muutoksen kohdalla tai niitä ei ajeta kokonaisuudessaan.
+Omia buildiminuutteja voi kuitenkin säästää huomattavasti, jos käytettävän minuuttimäärän kohdentaa hyvin. Kohdentamisella tarkoitetaan tässä tapauksessa sitä, ettei kaikki pipelinejä ajeta jokaisen muutoksen kohdalla tai niitä ei ajeta kokonaisuudessaan.
 
 ### Pipelinen ehdollinen suorittaminen
 
@@ -25,7 +25,7 @@ trigger:
     - my-web-api
 ```
 
-Jos kyseinen ehto ei täyty pushin myötä muuttuvissa tiedostoissa, ei pipelineä suoriteta. Pipelinen voi edelleen käynnistää tarvittaessa manuaalisesti Azure Devopsin pipelines-osiosta.
+Jos kyseinen ehto ei täyty versionhallintaan tehtävän pushin myötä muuttuvissa tiedostoissa, ei pipelineä suoriteta. Pipelinen voi edelleen käynnistää tarvittaessa manuaalisesti Azure Devopsin pipelines-osiosta.
 
 Molemmissa include-osissa voi luonnollisesti olla listattuna useampi haara ja/tai kansio, jos pipeline täytyy suorittaa esim. siinä tapauksessa että varsinainen koodi ei ole muuttunut, mutta joku on lisännyt mukaan uuden testitapauksen.
 
@@ -60,7 +60,7 @@ jossa pelkästään `docs/README.md` -tiedostoon tehtävät muokkaukset eivät k
 
 ### Esimerkkejä
 
-Alla muutama esimerkki, joiden avulla ehtoja voi tehdä:
+Alla muutama esimerkki, joiden avulla uusia ehtoja tai muutoksia olemassa oleviin pipelineihin voi tehdä:
 - Generoitava dokumentaatio kannattaa yleensä luoda uudelleen vain jos jokin siihen liittyvä tiedosto on muuttunut
 - Koodin laatua mittaavia työkaluja ei kannata suorittaa, jos koodiin ei ole tullut muutoksia
 - Suuremmat testikokonaisuudet kannattaa yleensä suorittaa vain main-haaraan menevälle koodille
