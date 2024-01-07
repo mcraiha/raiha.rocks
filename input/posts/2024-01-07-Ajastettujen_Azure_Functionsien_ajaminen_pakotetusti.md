@@ -7,7 +7,7 @@ Tags:
 
 ## Ajastettujen Azure Functionsien ajaminen pakotetusti
 
-Jossain tilanteessa saattaa tulla tarve käynnistää Azuressa ajastettu (Timer trigger) Azure Functions sen normaalin ajoaikataulun ulkopuolella. Tämä onnistuu helposti komentoriviltä curl-työkalun avulla.
+Jossain tilanteissa saattaa tulla tarve käynnistää Azuressa ajastettu (Timer trigger) Azure Functions sen normaalin ajoaikataulun ulkopuolella. Tämä onnistuu helposti komentoriviltä curl-työkalun avulla.
 
 ### Vaihe 1: _master -avaimen hankkiminen
 
@@ -42,6 +42,6 @@ Server: Kestrel
 Request-Context: appId=...
 ```
 
-ja komennon suorituksen onnistumista voi seurata esim. Azure Functionsin oman **Logs**-osion.
+ja komennon suorituksen onnistumista voi seurata esim. Azure Functionsin oman **Logs**-osion avulla.
 
 <span style="font-size:4em;">⚡☁️</span>
