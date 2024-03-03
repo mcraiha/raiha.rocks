@@ -24,7 +24,7 @@ static IEnumerable<IEnumerable<T>> GetPermutations<T>(IEnumerable<T> list, int l
             (t1, t2) => t1.Concat(new T[] { t2 }));
 }
 ```
-yllä oleva koodi ei ole suorituskyvyn osalta paras mahdollinen, koska käyttää [LINQ](https://fi.wikipedia.org/wiki/LINQ):ta uusien permutaatioiden tekemiseen.
+yllä oleva koodi ei ole suorituskyvyn osalta paras mahdollinen, koska se käyttää [LINQ](https://fi.wikipedia.org/wiki/LINQ):ta uusien permutaatioiden tekemiseen.
 
 Koodi hyödyntää C#:n [IEnumerable](https://learn.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=net-7.0)-rajapintaa, jolloin uusi permutaatio toteutetaan vasta pyytämisen yhteydessä, eikä kaikkia permutaatioita generoida automaattisesti ohjelman muistia kuluttamaan.
 
