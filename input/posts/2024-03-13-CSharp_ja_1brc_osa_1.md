@@ -33,7 +33,7 @@ Kuten arvata saattaa, ei tämä esimerkkitoteutus ole suorituskyvyn kannalta par
 
 ### Ensimmäinen C#:lla toteutettu oma versio
 
-Morlingin esimerkkototeutuksesta oli helppo tehdä suunnilleen vastaava [C#-toteutus](https://github.com/mcraiha/csharp1brc/blob/main/oletus/Program.cs), kun Javan käyttämän Collector-toiminnallisuuden korvasi hieman yksinkertaisemmalla tavalla. Suorituskyvyn kannalta tämä toteutus on kaukana optimaalisesta, ja palaan tarkemmin näihin ongelmakohtiin seuraavassa blogikirjoituksessa
+Morlingin esimerkkototeutuksesta oli helppo tehdä suunnilleen vastaava [C#-toteutus](https://github.com/mcraiha/csharp1brc/blob/main/oletus/Program.cs), kun Javan käyttämän Collector-toiminnallisuuden korvasi hieman yksinkertaisemmalla tavalla. Suorituskyvyn kannalta tämä toteutus on kaukana optimaalisesta, ja palaan tarkemmin näihin ongelmakohtiin [seuraavassa blogikirjoituksessa](/posts/CSharp_ja_1brc_osa_1.html).
 
 #### Rivien lukeminen
 
