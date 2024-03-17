@@ -79,6 +79,6 @@ foreach (var key in keys)
 
 Oletusversioon verrattuna keskusmuistia kuluu vähemmän, koska jokaiselle mittauspisteelle on yksi luokka, jota päivitetään tarpeen mukaan.
 
-Seuraavalla kerralla jatkan tarinointi suorituskyvyn profiloinnin parissa, jotta saamme tarkemmin tietoa siitä, että mitä voimme vielä parantaa.
+[Seuraavalla kerralla]((/posts/CSharp_ja_1brc_osa_1.html)) jatkan tarinointia suorituskyvyn profiloinnin parissa, jotta saamme tarkemmin tietoa siitä, että mitä voimme vielä parantaa.
 
 <span style="font-size:4em;">📖</span>
