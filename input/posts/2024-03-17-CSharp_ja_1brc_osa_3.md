@@ -29,6 +29,6 @@ Kuten kuvasta näkyy, menee koodin suorittamisessa ylivoimaisesti eniten aikaa t
 
 ### Tulevat muutokset
 
-Koska tiedoston lukemisen suorituskykyparannukset vaativat eniten muutoksia koodiin, jätän ne myöhempään kertaan. Aloitan siis pienemmillä muutoksilla, joiden pitäisi kuitenkin nopeuttaa ohjelman suoritusta useammalla prosentilla.
+Koska tiedoston lukemisen suorituskykyparannukset vaativat eniten muutoksia koodiin, jätän ne myöhempään kertaan. Aloitan siis [pienemmillä muutoksilla](/posts/CSharp_ja_1brc_osa_4.html), joiden pitäisi kuitenkin nopeuttaa ohjelman suoritusta useammalla prosentilla.
 
 <span style="font-size:4em;">📝</span>
