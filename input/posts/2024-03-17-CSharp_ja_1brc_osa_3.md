@@ -2,6 +2,7 @@ Title: C# ja miljardin rivin haaste, osa 3
 Tags: 
   - C#
   - 1brc
+  - Speedscope
 ---
 
 ## C# ja miljardin rivin haaste, osa 3
