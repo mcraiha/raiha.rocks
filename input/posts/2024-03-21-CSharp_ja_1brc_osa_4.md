@@ -44,7 +44,7 @@ Suorituskyky parani näiden pienten muutosten myötä selvästi.
 
 ### Tulossa
 
-Seuraavaksi tarkoitus olisi korvata liukulukujen käsittely kokonaan omalla toteutuksella, ja tarkistella tämä muutoksen etuja suoritusnopeuden kannalta.
+[Seuraavaksi](/posts/CSharp_ja_1brc_osa_5.html) tarkoitus olisi korvata liukulukujen käsittely kokonaan omalla toteutuksella, ja tarkistella tämä muutoksen etuja suoritusnopeuden kannalta.
 
 
 <span style="font-size:4em;">🔧</span>
