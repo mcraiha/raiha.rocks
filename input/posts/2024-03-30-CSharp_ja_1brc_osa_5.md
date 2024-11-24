@@ -81,7 +81,7 @@ Suorituskyky parani näiden pienten muutosten myötä jälleen selvästi.
 
 ### Tulossa
 
-Viimeinen optimointi on työläin vaihe, eli tekstirivien lukemisen muuttaminen.
+Viimeinen optimointi on työläin vaihe, eli tekstirivien lukemisen muuttaminen. Mutta sitä ennen [.NET 9 regressio](/posts/CSharp_ja_1brc_osa_6.html).
 
 
 <span style="font-size:4em;">🛟</span>
