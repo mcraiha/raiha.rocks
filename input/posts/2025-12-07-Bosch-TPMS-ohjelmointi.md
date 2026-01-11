@@ -14,7 +14,7 @@ Jos hankit juuri autoosi uudet renkaat, joissa on **Bosch**in valmistamat TPMS-s
 
 Ainakin [CarHelp](https://www.facebook.com/24carhelp/posts/tpms-anturit-bosch-ohjelmoituna-juuri-sinun-autoosi-vain-65-kpljos-vanhat-anturi/1178812144042411/)-ketjun liikkeestä Tuusulasta löytyy ohjelmointiin sopiva [Hamaton H57](https://www.hamaton-tpms.com/pages/product_details.php?product=HAM-D081) -laite. Kun H57:n valikosta valitsee sopivan auton ja vuosimallin, saa ohjelmoinnin suoritettua nopeasti (noin 5 sekuntia per rengas) viemällä ohjelmointilaitteen renkaan viereen.
 
-Valitettavasti kaikki automallit eivät havaitse uusia sensoreita välittömästi, joten autolla voi joutua ajamaan tämän jälkeen noin 30 minuuttia, jotta auto oppii uudet sensorit. Oman auton kohdalla kojelauta ei myöskään näytä mitään edistymistietoa tämän asian tiimoilta, joten ohjelmoinnin onnistumisen varmistaminen vie tovin aikaa.
+Valitettavasti kaikki automallit eivät havaitse uusia sensoreita välittömästi, joten autolla voi joutua ajamaan tämän jälkeen noin 30 minuuttia, jotta auto oppii uudet sensorit. Oman autoni kohdalla kojelauta ei myöskään näytä mitään edistymistietoa tämän asian tiimoilta, joten ohjelmoinnin onnistumisen varmistaminen vie tovin aikaa.
 
 ### Muut laitteet
 
